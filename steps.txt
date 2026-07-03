@@ -9,6 +9,7 @@ what to learn
     -setup ejs as a view engine
          app.set('view engine','ejs');
 
+
 *setting up public static file 
        app.use(express.static(path.join(__dirname, 'public')));    
 
@@ -23,4 +24,5 @@ what to learn
    -how to get data coming from frontend t backend route 
 
 
-
+PART - 7 
+ we are a notes webapp 
