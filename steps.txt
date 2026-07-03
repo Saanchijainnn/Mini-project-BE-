@@ -25,4 +25,4 @@ what to learn
 
 
 PART - 7 
- we are a notes webapp 
+ we are making a  notes webapp 
