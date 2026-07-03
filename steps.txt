@@ -1,0 +1,26 @@
+what to learn 
+*setting up parsers for form 
+   app.use(express.json());
+   app.use(express.urlencoded({ extended: true }));
+
+
+*setting up ejs for ejs pages 
+    -install ejs from npm 
+    -setup ejs as a view engine
+         app.set('view engine','ejs');
+
+*setting up public static file 
+       app.use(express.static(path.join(__dirname, 'public')));    
+
+
+*dynamic routing 
+   -dynamic routing 
+        //hum log kai baar kuch routes dekhte h jisme sirf ek hi hissa change hota h 
+        ex- /author/harshita
+            /author/harsh 
+
+        // ab usi url ko agr dynamic banana h to realise karo kaunsa part dynamic g aur us part k aage route mein ":" laga do 
+   -how to get data coming from frontend t backend route 
+
+
+
